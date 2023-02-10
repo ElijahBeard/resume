@@ -1,7 +1,7 @@
 var k = 0;
 var j = 0;
-var lspeed = 19;
-var rspeed = 40;
+var lspeed = 1;
+var rspeed = 4;
 document.getElementById("right").onload = fade_right()
 function fade_right() {
     if(j < 1){

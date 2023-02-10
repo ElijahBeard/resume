@@ -62,7 +62,7 @@ i {
 }
 .bottom_information {
     position: relative;
-    top:-10px;
+    top:-20px;
     padding-left:30px;
 }
 .references{
@@ -81,4 +81,11 @@ i {
 .job_title{
     margin-bottom:0px;
     padding-top:5px;
+}
+.socials h5{
+    position:relative;
+    top:-3px;
+}
+.socials a {
+    text-decoration: none;
 }
