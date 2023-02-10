@@ -93,6 +93,22 @@ i {
         display:flex;
         flex-direction: column;
         width:80px;
+        margin:0px;
+        padding:20px;
+    }
+    .socials{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        right:190px;
+    }
+    .socials button {
+        margin:4px;
+    }
+    .socials h5{
+        position:relative;
+        right:-17px;
+        top:-15px;
     }
     .objectives ul{
         width:300px;
@@ -105,11 +121,8 @@ i {
     }
     .contact_information{
         position:relative;
-        top:-1185px;
-        right:-340px;
-    }
-    .Experience{
-        position:relative;
-        top:100px;
+        top:-1270px;
+        right:-240px;
+        width:200px;
     }
 }
