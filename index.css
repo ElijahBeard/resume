@@ -1,7 +1,6 @@
 body{
     display: flex;
     flex-direction: row;
-    font-family:'Courier New', Courier, monospace;
     margin: 20px;
     padding: 30px;
     justify-content: space-between;
@@ -62,7 +61,7 @@ i {
 }
 .bottom_information {
     position: relative;
-    top:-20px;
+    top:10px;
     padding-left:30px;
 }
 .references{
