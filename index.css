@@ -88,7 +88,7 @@ i {
 .socials a {
     text-decoration: none;
 }
-@media screen and (max-width: 560px){
+@media screen and (max-width: 610px){
     body{
         display:flex;
         flex-direction: column;
@@ -121,8 +121,26 @@ i {
     }
     .contact_information{
         position:relative;
-        top:-1270px;
-        right:-240px;
+        top:-1245px;
+        right:-400px;
         width:200px;
+        float:right;
+    }
+    .skills ul {
+        font-size: 12px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position:relative;
+        right:109px;
+        top:10px;
+    }
+    .skills li {
+        margin: 10px;
+    }
+    .right_information{
+        position:relative;
+        right:20px;
+        top:-30px;
     }
 }
