@@ -9,7 +9,7 @@ var speed = 60;
 document.getElementById("name_type").onload = typewrite()
 
 function typewrite() {
-  if (i < 200) {
+  if (i < 23) {
     document.getElementById("name_type").innerHTML += txt.charAt(i);
     document.getElementById("addy_top").innerHTML += addy_top.charAt(i);
     document.getElementById("phone").innerHTML += phone.charAt(i);

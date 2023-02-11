@@ -31,6 +31,9 @@ body ul{
     display: flex;
     flex-direction: column;
     font-size: 0.9em;
+    position:absolute;
+    right:40px;
+    top:80px;
 }
 .contact_information p{
     margin-top:3px;
@@ -39,9 +42,10 @@ body ul{
 .email {
     display: flex;
     flex-direction: row;
-    position:relative;
+    position:absolute;
     padding-left:100%;
-    right:201px;
+    right:0px;
+    bottom:86px;
 }
 button{
     background:transparent;
@@ -61,7 +65,7 @@ i {
 }
 .bottom_information {
     position: relative;
-    top:10px;
+    top:110px;
     padding-left:30px;
 }
 .references{
@@ -121,7 +125,7 @@ i {
     }
     .contact_information{
         position:relative;
-        top:-1245px;
+        top:-1210px;
         right:-400px;
         width:200px;
         float:right;
